@@ -25,7 +25,7 @@
   .card__description{
     color: #282828;
     font-size: 12px;
-    visibility: hidden;
+    display: none;
   }
   header{
   background-color: #ffffff;
@@ -37,6 +37,7 @@
   }
   body{
   background-color: #C4C4C4;
+  width: 320px;
   }
   nav{
   background-color: #726666;
@@ -83,6 +84,7 @@
   }
   body{
   background-color: #C4C4C4;
+  width: 768px;
   }
   nav{
   background-color: #726666;
@@ -126,6 +128,7 @@
   }
   body{
   background-color: #C4C4C4;
+  width: 1200px;
   }
   nav{
   background-color: #726666;
