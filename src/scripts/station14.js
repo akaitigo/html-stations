@@ -10,6 +10,11 @@ function getData() {
 }
 
 function buildFullName(data) {
+    const build = [
+            {id:data[0][0],full_name:data[0][1]+" "+data[0][2],first_name:data[0][1],family_name:data[0][2],affilication:data[0][3],is_student:data[0][4]},
+            {id:data[1][0],full_name:data[1][1]+" "+data[1][2],first_name:data[1][1],family_name:data[1][2],affilication:data[1][3],is_student:data[1][4]}
+    ]
+    return build
     // Station14の問題はこちらです。想定する答えをここを書いてください。
     // 氏名がわかるようにしつつ、半角スペースで繋いでください。
     // またtest配列のそれぞれのオブジェクトに対して、full_nameのプロパティが追加されるように実装すること
